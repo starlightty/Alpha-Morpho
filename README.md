@@ -11,7 +11,7 @@ Introduction：Alpha Morpho is based on MorphoLex expanded, a morphological data
 2.	Acquire frequency of and words of prefixes, roots, suffixes occurred in the text. 
 
 ## Function three: calculating morphological complexity (Sánchez-Gutiérrez, 2018)
-Six predicators：
+### Six predicators：
 (1) Morphological family size：all types containing the morpheme
 	e.g. {attendance, pleasance, pleasure, appearance}    
 		 -ance {attendance,pleasance,appearance} family size = 3   
@@ -30,12 +30,3 @@ Six predicators：
 (6) affix length: length of affix（do not distinguish allomoph）
 	*-ion, -tion, -ation		affix length 3
 
-
-## how to git
-echo "# Alpha-Morpho" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/starlight23333/Alpha-Morpho.git
-git push -u origin main
