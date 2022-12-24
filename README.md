@@ -1,16 +1,16 @@
-#Alpha Morpho: A Morphological Concordancer
+# Alpha Morpho: A Morphological Concordancer
 
 Introduction：Alpha Morpho is based on MorphoLex expanded, a morphological database for 390,000 English words. Alpha Morpho can search the affix of word, all affixes occurred in a text, and calculate morphological complexity of a text.
 
-Function one: searching affix of a word
+## Function one: searching affix of a word
 1.	If you input a word, you can get its part of speech, derivational prefix, root, derivational suffix, inflectional suffix and type of inflection (e.g. past tense). If the word has many part of speech, all related affix will be listed out. For example, interested can be either an adjective or the past tense of word interest.
 2.	Acquire all words with the same root.
 
-Function two: searching all affixes of a text
+## Function two: searching all affixes of a text
 1.	Choose a file, and get the coverage (words found in MorphoLex expanded / all words).
 2.	Acquire frequency of and words of prefixes, roots, suffixes occurred in the text. 
 
-Function three: calculating morphological complexity (Sánchez-Gutiérrez, 2018)
+## Function three: calculating morphological complexity (Sánchez-Gutiérrez, 2018)
 Six predicators：
 (1) Morphological family size：all types containing the morpheme
 	e.g. {attendance, pleasance, pleasure, appearance}    
